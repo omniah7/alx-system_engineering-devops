@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 $Path | wc -l
+printf "%s\n" $PATH | wc -l
