@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -b 1 -d ':' --output-delimiter="" | echo
+echo $(cut -b 1 -d ':' --output-delimiter="") 
