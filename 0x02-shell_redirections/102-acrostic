@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $(cut -b 1 -d ':' --output-delimiter="")/n 
+cut -b 1 --output-delimiter="" | sort
