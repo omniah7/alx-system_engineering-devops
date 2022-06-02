@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -b 1 --output-delimiter="" | sort
+cut -c 1 --output-delimiter="" | sort
